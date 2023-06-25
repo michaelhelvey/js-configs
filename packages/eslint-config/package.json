@@ -1,0 +1,16 @@
+{
+	"name": "@michaelhelvey/eslint-config",
+	"main": "index.js",
+	"version": "1.0.0",
+	"type": "commonjs",
+	"license": "MIT",
+	"author": "Michael Helvey <michael.helvey1@gmail.com>",
+	"private": false,
+	"dependencies": {
+		"@typescript-eslint/eslint-plugin": "^5.60.0",
+		"@typescript-eslint/parser": "^5.60.0",
+		"eslint-config-prettier": "^8.8.0",
+		"eslint-plugin-jest": "^27.2.2",
+		"eslint-plugin-prettier": "^4.2.1"
+	}
+}

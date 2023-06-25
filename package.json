@@ -1,0 +1,26 @@
+{
+	"name": "@michaelhelvey/js-configs",
+	"version": "0.0.0",
+	"description": "My personal preferred configuration for javascript projects",
+	"license": "MIT",
+	"author": "Michael Helvey <michael.helvey1@gmail.com>",
+	"prettier": "@michaelhelvey/prettier-config",
+	"scripts": {
+		"lint": "eslint .",
+		"format": "prettier --write --ignore-unknown ."
+	},
+	"lint-staged": {
+		"*.c?m?{js,jsx,ts,tsx}": [
+			"prettier --write",
+			"eslint --fix"
+		]
+	},
+	"devDependencies": {
+		"@michaelhelvey/eslint-config": "workspace:^",
+		"@michaelhelvey/prettier-config": "workspace:^",
+		"husky": "^8.0.3",
+		"lint-staged": "^13.2.2",
+		"prettier": "^2.8.8",
+		"typescript": "^5.1.3"
+	}
+}

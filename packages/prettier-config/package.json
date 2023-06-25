@@ -1,0 +1,9 @@
+{
+	"name": "@michaelhelvey/prettier-config",
+	"version": "1.0.0",
+	"main": "index.js",
+	"type": "commonjs",
+	"license": "MIT",
+	"author": "Michael Helvey <michael.helvey1@gmail.com>",
+	"private": false
+}

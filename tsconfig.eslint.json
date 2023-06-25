@@ -1,0 +1,6 @@
+// Note: this tsconfig is not responsible for building anything -- just for
+// linting & DX within the monorepo.
+{
+	"include": ["**/*.ts", "**/*.js"],
+	"exclude": ["**/node_modules/**", "**/dist/**", "**/coverage/**"]
+}
