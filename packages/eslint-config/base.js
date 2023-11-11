@@ -10,9 +10,9 @@ const permissiveTypescriptRules = Object.keys(rules).reduce((table, rule) => {
 /** @type {import('eslint').Linter.Config} */
 module.exports = {
 	parser: '@typescript-eslint/parser',
-	plugins: ['@typescript-eslint', 'jest', 'prettier'],
+	plugins: ['@typescript-eslint', 'jest'],
 	extends: [
-		'plugin:prettier/recommended',
+		'prettier',
 		'eslint:recommended',
 		'plugin:@typescript-eslint/recommended',
 		'plugin:@typescript-eslint/recommended-requiring-type-checking',
